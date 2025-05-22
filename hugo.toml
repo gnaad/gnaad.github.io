@@ -1,0 +1,75 @@
+title = "Gnanendra Prasad P"
+baseURL = "https://gnaad.github.io"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+theme = "gokarna"
+
+pygmentsStyle = "monokai"
+
+[params]
+  fontSize = "17.5px"
+  accentColor = "#FF4D4D"
+  avatarURL = "https://avatars.githubusercontent.com/u/64088282"
+  avatarSize = "size-m"
+  dateFormat = "1 January 2000"
+  description = "Consultant at Xebia"
+  footer = "Gnanendra Prasad P"
+  metaKeywords = ["blog", "gnaad", "gnanendra", "software"]
+  numberPostsOnHomePage = 4
+  showBackToTopButton = true
+  # showPostsOnHomePage = "recent"
+  togglePreviousAndNextButtons = true
+  displayReadingTime = true
+  socialIcons = [
+    {name = "github", url = "https://github.com/gnaad"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/gnanendraprasadp"},
+    {name = "medium", url = "https://gnanendraprasadp.medium.com"},
+    {name = "x", url = "https://x.com/megnanendra"}
+  ]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    pre = "<span data-feather='file-text'></span>"
+    url = "/posts"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tags"
+    pre = "<span data-feather='tag'></span>"
+    url = "/tags"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    pre = "<span data-feather='user'></span>"
+    url = "/about"
+    weight = 4
+    
+  [[menu.main]]
+    identifier = "github"
+    pre = "<span data-feather='github'></span>"
+    url = "https://github.com/gnaad"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "x"
+    pre = "<span data-feather='twitter'></span>"
+    url = "https://x.com/megnanendra"
+    weight = 6
+
+  [[menu.main]]
+    identifier = "rss"
+    pre = "<span data-feather='rss'></span>"
+    url = "/index.xml"
+    weight = 7
+
+[minify]
+    minifyOutput = true
