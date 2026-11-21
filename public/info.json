@@ -1,0 +1,44 @@
+{
+    "name": "Gnanendra Prasad P",
+    "role": "Software Engineer",
+    "home": {
+        "bio": "Java | Spring Boot | Microservices",
+        "note": "Focused on backend engineering, clean architecture and building software that scales."
+    },
+    "site": {
+        "name": "gnaad.github.io",
+        "url": "https://gnaad.github.io",
+        "title": "Gnanendra Prasad P",
+        "description": "Java Backend Developer with 5 years of experience building scalable, secure, and high-performance applications using Java, Spring Boot, and Microservices. Passionate about backend engineering, system design, and solving complex technical challenges.",
+        "locale": "en_IN",
+        "ogImage": ""
+    },
+    "contacts": [
+        {
+            "label": "email",
+            "text": "gnanendraprasadp@gmail.com",
+            "href": "mailto:gnanendraprasadp@gmail.com"
+        },
+        {
+            "label": "linkedin",
+            "text": "@gnanendraprasadp",
+            "href": "https://linkedin.com/in/gnanendraprasadp",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+        },
+        {
+            "label": "github",
+            "text": "@gnaad",
+            "href": "https://github.com/gnaad",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+        },
+        {
+            "label": "twitter",
+            "text": "@megnanendra",
+            "href": "https://x.com/megnanendra",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+        }
+    ]
+}
